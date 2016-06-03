@@ -74,3 +74,4 @@ jspm_packages
 
 app/dest/js/*
 !.gitkeep
+app/server.bundle.js
