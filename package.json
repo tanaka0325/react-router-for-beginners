@@ -23,6 +23,9 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.13.4",
+    "path": "^0.12.7",
     "react-router": "^2.4.1"
   }
 }
