@@ -4,6 +4,7 @@
   "description": "skeleton for react.",
   "main": "index.js",
   "scripts": {
+    "start": "node app/server.bundle.js",
     "build": "browserify app/src/js/index.js -t babelify -o app/dest/js/app.js",
     "watch": "watchify app/src/js/index.js -t babelify -o app/dest/js/app.js"
   },
