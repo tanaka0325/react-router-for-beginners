@@ -30,6 +30,7 @@ module.exports = [
     name: 'server',
     entry: __dirname + "/app/src/js/server.js",
     target: 'node',
+    externals: /^(?!^(src|\.)\/)/,
     output: {
       path: __dirname + '/app/dest/',
       filename: 'server.bundle.js',
