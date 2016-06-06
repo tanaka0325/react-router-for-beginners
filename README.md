@@ -4,5 +4,8 @@ react-routerのテストプロジェクト
 
 - es2015
 - react
+- react-router
+- webpack
 - SPA
-- server-side-rendering (using express)
+- server-side-rendering
+- express
