@@ -4,10 +4,9 @@
   "description": "skeleton for react.",
   "main": "index.js",
   "scripts": {
-    "start": "node app/server.bundle.js",
-    "webpack": "webpack --progress --colors",
-    "build": "browserify app/src/js/index.js -t babelify -o app/dest/js/app.js",
-    "watch": "watchify app/src/js/index.js -t babelify -o app/dest/js/app.js"
+    "start": "node app/dest/server.bundle.js",
+    "build": "webpack --progress --colors",
+    "watch": "webpack --progress --colors --watch"
   },
   "author": {
     "name": "Hiroyuki Tanaka",
@@ -19,14 +18,10 @@
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.5.0",
-    "babelify": "^7.3.0",
-    "browserify": "^13.0.1",
     "json-loader": "^0.5.4",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
-    "watchify": "^3.7.0",
-    "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
+    "webpack": "^1.13.1"
   },
   "dependencies": {
     "compression": "^1.6.2",
